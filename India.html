@@ -1,0 +1,212 @@
+<html>
+
+<head>
+
+  <title>India</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 400; 
+      background-color: #865b5d;
+      padding-bottom: 80px; /* Prevent content from being hidden by fixed footer */
+    }
+    .cover {
+      background-color: #5c3d3f;
+      height: 400px;
+      position: relative;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+    .world {
+      font-weight: 200;
+      font-size: 25px;
+      margin-left: 300px;
+      color: gold;
+      line-height: 1.6; /* Improve readability */
+    }
+    .header {
+      text-align: center;
+      color: #cbbad9;
+      font-size: 50px;
+      font-weight: bold;
+      margin: 40px 0 20px; /* Add spacing */
+    }
+    .ptext {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Perfect centering */
+      width: 100%;
+      text-align: center;
+      font-size: 27px;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      color: #d8cbcb;
+    }
+    .section {
+      text-align: center;
+      padding: 50px 80px;
+      background-color: #e6e6e6;
+      color: #666;
+    }
+    .navbar {
+      overflow: hidden; /* Clear floats */
+      background-color: #442f30; /* Match theme */
+      padding: 0 20px;
+    }
+    .navbar a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px; /* Consistent padding */
+      margin-right: 20px; /* Reduced margin for smaller screens */
+      font-size: 20px;
+      text-decoration: none;
+      transition: background-color 0.3s; /* Hover effect */
+    }
+    .navbar a.active {
+      background-color: #583c3d;
+      color: #1a1919;
+    }
+    .navbar a:hover:not(.active) {
+      background-color: #6b494a; /* Hover highlight */
+    }
+    h1 {
+      color: #f9f0f0;
+      font-family: 'Times New Roman', serif; /* Fixed font-style → font-family */
+      font-size: 28px; /* Adjusted for readability */
+      margin: 20px 0;
+    }
+    .placeh {
+      font-size: 30px;
+      font-weight: 100;
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #362627;
+      color: #f9f0f0;
+      text-align: center;
+      padding: 15px 0; /* Add padding */
+      font-size: 18px;
+    }
+    .myslides {
+      height: 500px;
+      width: 70%; /* Wider carousel */
+      object-fit: cover; /* Prevent image distortion */
+      display: none; /* Hide all slides by default */
+      margin: 0 auto; /* Center carousel images */
+      border-radius: 10px; /* Soft corners */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Add shadow */
+    }
+    form {
+      text-align: left;
+    }
+    /* Center country images */
+    .country-img {
+      display: block;
+      margin: 0 auto 20px; /* Center + spacing */
+      max-width: 500px; /* Limit image width */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 8px;
+    }
+    /* Fix horizontal rule styling */
+    hr {
+      border: 1px solid #cbbad9;
+      width: 80%;
+      margin: 40px auto;
+    }
+    /* Audio player styling */
+    audio {
+      margin: 20px 0;
+    }
+    /* Marquee styling */
+    marquee {
+      padding: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <center>
+      <h1><marquee>💝Welcome to India. You must know more about India.💝</marquee></h1>
+    </center>
+  </header>
+ <div class="navbar"> 
+ <a href="index.html">Home</a> <a  href="China.html">China</a> <a class="active" href="india.html">India</a> <a  href="USA .html">United States</a> <a href="Indonesia.html">Indonesia</a> <a href="Pakistan.html">Pakistan</a> <a href="Nigeria.html">Nigeria</a> <a href="Bangladesh.html">Bangladesh</a> <a href="brazil.html">Brazil</a> <a href="from.html">Sign Up</a>
+ </div>
+  <br>
+  <center>
+  <img class="myslides" src="india flag.jpg">
+  <img class="myslides" src="Gateway Of India Mumbai.jpg">
+    <img class="myslides" src="Biryani.jpg">
+  <img class="myslides" src="India Gate.jpg">
+    <img class="myslides" src="Dal Soup.jpg">
+  <img class="myslides" src="Lotus Temple.jpg">
+    <img class="myslides" src="Samosa.jpg">
+  <img class="myslides" src="Nubra Valley.jpg">
+    <img class="myslides" src="Tandoori Chicken.jpg">
+  <img class="myslides" src="Taj Mahal.jpg">
+    <img class="myslides" src="Tandoori Fish.jpg">
+  </center>
+  <script>
+  var myIndex = 0;carousel();function carousel() {var i;var x = document.getElementsByClassName("myslides");for (i = 0; i < x.length; i++) {x[i].style.display = "none";} myIndex++;if (myIndex > x.length) {myIndex = 1;}x[myIndex - 1].style.display = "block";setTimeout(carousel, 1000);}
+  </script>
+  <audio controls autoplay>
+    <source src="mumbai-172908.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+  </audio>
+</center>
+  <h3 class="header">List of 5 Famous Places in India</h3>
+  <p class="world">
+    <strong>Taj Mahal</strong><br>
+    1. Majestically located on the banks of Yamuna River, this wonder of the world was built by the Mughal Emperor Shah Jahan as a memorial for his beloved wife Mumtaz Mahal..<br><br>
+    <strong>Gateway Of India</strong><br>
+    2.Located on the waterfront in Colaba, South Mumbai, this arch monument is Mumbai’s prime landmark. It was built by the British to welcome King George V and Queen Mary during a royal visit in 1911.<br><br>
+    <strong>Lotus Temple</strong><br>
+    3.The Lotus Temple is an edifice of Bahai faith, resembling a lotus flower. It’s constructed purely with white marble and designed by Furiburz Sabha. The temple is open to people of all faiths.<br>
+    <strong>Nubra Valley</strong><br>
+    4.Located about five hours from Leh, Nubra Valley is a high-altitude cold desert formed by the union of Shyok and Siachen rivers. It wins you over with its magnificent sand dunes.<br><br>
+    <strong>India Gate</strong><br>
+    5.Located on Rajpath in the heart of Delhi, this arch monument is a 42 meter high war memorial. It is also surrounded by vast well-manicured lawns and many government buildings.<br><br>
+  </p><hr>
+  <h3 class="header">List of 5 Famous Foods in India</h3>
+  <p class="world">
+    <strong>Samosa</strong><br>
+    1. This delicious option is a food that even those new to Indian cooking may have tried. As a fried dough pocket filled with delectable ingredients such as potato, onion, spices, and peas, samosas are often eaten as snacks in India. They are especially delicious when topped with sauces or chutneys.<br><br>
+    <strong>Dal Soup</strong><br>
+    2.Dal soup is an Indian soup variety where lentils are simmered with vegetables, leafy greens, spices and herbs to make a satiating dish. This soup is a good way to add some protein especially on a vegetarian or vegan diet. This is a healthy Indian dish with subtle regional variations resulting in varied flavors.<br><br>
+    <strong>Tandoori Chicken</strong><br>
+    3.The only dish that’s probably more popular than this one would be chicken tikka, but even then it’s a close call. Tandoori chicken’s juicy consistency and mouthwatering spices make it a classic that never really goes out of style and always manages to make new fans with each serving.<br>
+
+    If you are new to Indian food, you may want to start with tandoori chicken for its universal appeal. The chicken is marinated in ingredients such as yogurt, ginger, garlic, and herbs, and then baked in a clay oven, creating a juicy and delicious flavor. Seafood lovers often opt for shrimp or fish tandoori, and those who are indecisive can find comfort in the tandoori mixed grill, combining chicken, shrimp, fish, and lamb into one savory meal.<br><br>
+    <strong>Tandoori Fish</strong><br>
+    4.When thinking of tandoor-style dishes, fish is not always the first thing that comes to mind. Yet tandoori fish is certainly a different type of meal, one not often represented in Indian cuisine. What the cooking process does for other meats works just as well for fish, imparting flavor and spice in equal measure.<br><br>
+    <strong>Biryani</strong><br>
+    5.Every cuisine seems to have its own special rice dish―for Indians; this dish is biryani. The presentation of Biryani not only looks beautiful but has an addictive characteristic, earning it lots of devotees. Its blooming flavors and fluffy rice are enhanced by vegetables and sometimes meats, making it a favorite for vegetarians and meat lovers alike.
+  </p><hr>
+  <h3 class="header">FAST FACTS</h3>
+  <p class="world">
+    OFFICIAL NAME: The Republic of India <br><br>
+    FORM OF GOVERNMENT: Parliamentary republic,Parliamentary system,Federal republic, and Constitutional republic.<br><br>
+    CAPITAL: New Delhi <br><br>
+    POPULATION: 1,437,375,657.<br><br>
+    LANGUAGES: In India, there are over 700 different languages spoken..<br><br>
+    MONEY: Rupee (INR)<br><br>
+    AREA: 32,87,263 sq. km<br><br>
+    MAJOR MOUNTAIN: Himalaya.<br><br>
+    MAJOR RIVERS: Indus River, Brahmaputra River, Narmada River, Tapi, Godavari River, Krishna River, and Mahanadi River,.<br><br>
+  </p><hr>
+  <div class="footer">
+    <p>Copy Right &copy; reserved by Lisa Hannah Thumu</p>
+  </div>
+  </body>
+
+  </html>
